@@ -73,35 +73,6 @@ The analysis expects a CSV file named `sample data.csv` with the following colum
 - `Meat Butcher Block`: Current meat butcher block length (feet)
 - `Seafood Butcher Block`: Current seafood butcher block length (feet)
 
-## Usage
-
-### Basic Analysis
-```python
-# Run the complete analysis
-python grocery_analysis.py
-```
-
-### Key Configuration Parameters
-
-```python
-# Performance thresholds (weekly sales)
-MEAT_HIGH_PERFORMANCE = 1800    # High-performing meat departments
-MEAT_MEDIUM_PERFORMANCE = 1300  # Medium-performing meat departments
-SEAFOOD_HIGH_PERFORMANCE = 1800 # High-performing seafood departments  
-SEAFOOD_MEDIUM_PERFORMANCE = 1550 # Medium-performing seafood departments
-
-# Space optimization constraints
-MEAT_BASELINE_LENGTH = 8        # Standard meat block length
-SEAFOOD_BASELINE_LENGTH = 12    # Standard seafood block length
-MIN_MEAT_LENGTH = 4             # Minimum allowable meat block length
-MIN_SEAFOOD_LENGTH = 6          # Minimum allowable seafood block length
-MAX_MEAT_LENGTH = 16            # Maximum meat block length
-MAX_SEAFOOD_LENGTH = 20         # Maximum seafood block length
-
-# Cost parameters
-COST_PER_FOOT_MEAT = 150        # Cost per foot of meat block space
-COST_PER_FOOT_SEAFOOD = 200     # Cost per foot of seafood block space
-```
 
 ## Output
 
